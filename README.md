@@ -5,7 +5,7 @@ IT student at University of Science, VNU-HCM (High-Quality Program, graduating 2
 ## Things I've built
 
 ### [Filer task board server](https://github.com/NgTHung/Filer/tree/main/tools/filer-task-web)
-A self-hosted task board for a small team. There are no passwords: to sign in on a new browser, you type a six-digit PIN from a browser you're already using. The PIN expires after five minutes and stops working after one use or five wrong guesses. Every edit is tied to a user, so the activity log shows who changed what.
+A web board for `taskroot` task files that runs on your own machine beside the CLI. There are no passwords: to sign in on a second browser, you type a six-digit PIN from one you're already using. The PIN expires after five minutes and stops working after one use or five wrong guesses. Every edit is tied to a user, so the activity log shows who changed what.
 
 `Rust` `Axum` `SQLx` `SQLite` · 146 integration tests
 
